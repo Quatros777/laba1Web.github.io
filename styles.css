@@ -1,0 +1,317 @@
+body{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.text{
+    position: absolute;
+    width: auto;
+    height: 2%;
+    left: 9%;
+    top: 45%;
+    font-family: Spinnaker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.7vw;
+    line-height: 2%;
+    text-align: center;
+    color: black;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: maintext1 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 0.8s; /* Задержка перед началом */
+
+
+}
+
+    img.myphoto {
+        background-image: url("images/Ii.jpg");
+        height: 100%;
+        width: 37%;
+        top: 3%;
+        object-fit: cover;
+        object-position: bottom;
+        opacity:0;
+        transition: 1s;
+        animation: myphoto 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+
+    .aboutme{
+        position: absolute;
+        width: auto;
+        padding: 2%;
+        height: 10%;
+        left: 36%;
+        top: 4%;
+        font-family: Pristina;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 40px;
+        text-align: right;
+        opacity:0;
+        transition: 1s;
+        animation: maintext2 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 2.7s;
+
+        color: #000000;
+    }
+.hardskills {
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 10%;
+    left: 36%;
+    top: 33%;
+    font-family: Pristina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 40px;
+    text-align: right;
+    opacity:0;
+    transition: 1s;
+    animation: maintext2 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.8s;
+
+    color: #000000;
+}
+.softskills {
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 10%;
+    left: 36%;
+    top: 56%;
+    font-family: Pristina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 40px;
+    text-align: right;
+    opacity:0;
+    transition: 1s;
+    animation: maintext2 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.7s;
+
+    color: #000000;
+}
+.contacts {
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 10%;
+    left: 36%;
+    top: 80%;
+    font-family: Pristina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: right;
+    opacity:0;
+    transition: 1s;
+    animation: maintext2 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.7s;
+
+    color: #000000;
+}
+    .maintext1{
+        transition: .4s ease-out;
+        position: absolute;
+        width: auto;
+        padding: 2%;
+        height: 30%;
+        font-family: Staatliches;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.3vw;
+        line-height: 1.9vw;
+        letter-spacing: 0.1em;
+        left: 46%;
+        top: 2%;
+        color: #000000;
+        opacity:0;
+        transition: 1s;
+        animation: maintext2 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3.6s;
+    }
+    .maintext2{
+        position: absolute;
+        width: auto;
+        padding: 2%;
+        height: 30%;
+        font-family: Staatliches;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.3vw;
+        line-height: 1.9vw;
+        letter-spacing: 0.1em;
+        left: 46%;
+        top: 30%;
+        opacity:0;
+        transition: 1s;
+        animation: maintext2 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3.8s;
+
+        color: #000000;
+    }
+
+    .maintext3{
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 30%;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.1em;
+    left: 46%;
+    top: 54%;
+        opacity:0;
+        transition: 1s;
+        animation: maintext2 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 4s;
+
+    color: #000000;
+}
+    .maintext4{
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 30%;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.1em;
+    left: 46%;
+    top: 78%;
+        opacity:0;
+        transition: 1s;
+        animation: maintext2 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 4.2s;
+
+    color: #000000;
+}
+
+.number{
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    height: 30%;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.4em;
+    left: 60%;
+    top: 90%;
+    opacity:0;
+    transition: 1s;
+    animation: maintext2 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4.4s;
+}
+@keyframes maintext1{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes maintext2{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes maintext3{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes maintext4{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes number{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes text{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes aboutme{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes hardskills{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes softskills{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes contacts{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes myphoto{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
